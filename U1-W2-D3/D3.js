@@ -248,13 +248,12 @@ console.log("Dopo: ", charactersNames.length);
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
 
-// Genera un indice casuale tra 0 e la lunghezza dell'array - 1
+
 const randomIndex = Math.floor(Math.random() * starWarsCharacters.length);
 
-// Ottieni il personaggio casuale
+
 const randomCharacter = starWarsCharacters[randomIndex];
 
-// Stampa le proprietà in modo discorsivo
 console.log(`Ecco un personaggio casuale di Star Wars: ${randomCharacter.name}!`);
 console.log(`${randomCharacter.name} è alto ${randomCharacter.height} cm e pesa ${randomCharacter.mass} kg.`);
 console.log(`Ha i capelli ${randomCharacter.hair_color}, la pelle ${randomCharacter.skin_color} e gli occhi ${randomCharacter.eye_color}.`);
